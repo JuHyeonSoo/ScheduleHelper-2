@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/colorAccent</item>
+    </style>
+
+    <style name="my_DialogTheme" parent="DialogTheme" />
+
+    <style name="My_AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+
+</resources>
